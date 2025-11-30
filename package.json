@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec node main.js" 
+    "dev": "nodemon --exec node main.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/Mordastik/backend-course-2025-6#readme",
   "dependencies": {
+    "body-parser": "^2.2.1",
     "commander": "^14.0.2",
-    "superagent": "^10.2.3"
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "superagent": "^10.2.3",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
